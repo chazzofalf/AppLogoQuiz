@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/media/chazz/f3959546-63d8-46cc-b3b0-af74f7823ebe/chazz/temp/20130428_1715/export/AppLogoQuiz/.metadata/.plugins/org.eclipse.jdt.core
+1078007353.index
+677887204.index
+2646786750.index
