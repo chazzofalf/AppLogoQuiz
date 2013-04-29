@@ -1,0 +1,48 @@
+package com.webuildsystems.AppLogoQuiz.data;
+
+import android.content.Context;
+import android.content.Intent;
+
+public class RawInfosGrabber 
+{
+	private RawInfosGrabberEvent rawInfosGrabberEvent = new RawInfosGrabberEvent();
+	private Context context;
+	public void setContext(Context context)
+	{
+		this.context = context;
+	}
+	public void addListener(RawInfosGrabberEventListener listener)
+	{
+		rawInfosGrabberEvent.addListener(listener);
+	}
+	public void removeListener(RawInfosGrabberEventListener listener)
+	{
+		rawInfosGrabberEvent.removeListener(listener);
+	}
+	private void fireOnRawInfosFailureToGrab(RawInfosGrabFailureException rawInfosFailedToGrab)
+	{
+		rawInfosGrabberEvent.fireOnRawInfosFailureToGrab(rawInfosFailedToGrab);
+	}
+	private void fireOnRawInfosObtained(RawInfos rawInfos)
+	{
+		rawInfosGrabberEvent.fireOnRawInfosObtained(rawInfos);
+	}
+	public void grabRawInfos()
+	{
+		new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				grabRawInfosInAnotherThread();
+			}
+		}).start();
+	}
+	private void grabRawInfosInAnotherThread()
+	{
+		Intent queryIntent = new Intent();
+		queryIntent.setAction(Intent.ACTION_MAIN);
+		queryIntent.addCategory(Intent.CATEGORY_LAUNCHER);
+		
+	}
+}

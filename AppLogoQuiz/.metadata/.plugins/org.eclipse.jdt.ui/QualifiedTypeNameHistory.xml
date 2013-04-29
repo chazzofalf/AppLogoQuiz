@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="Listener"/>
+<fullyQualifiedTypeName name="com.webuildsystem.EventLib.tests.Timer.TimerEvent"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="com.webuildsystem.EventLib.tests.Timer.TimerInterruptedException"/>
+<fullyQualifiedTypeName name="com.webuildsystem.EventLib.tests.Timer.TimerEventListener"/>
+<fullyQualifiedTypeName name="com.webuildsystem.EventLib.tests.Timer.TimerTest"/>
+<fullyQualifiedTypeName name="com.webuildsystem.EventLib.tests.Timer.Timer"/>
+<fullyQualifiedTypeName name="android.content.pm.ActivityInfo"/>
+<fullyQualifiedTypeName name="com.webuildsystems.AppLogoQuiz.data.RawInfos"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
+<fullyQualifiedTypeName name="com.webuildsystems.EventLib.Event"/>
+<fullyQualifiedTypeName name="com.webuildsystems.AppLogoQuiz.data.RawInfosGrabFailureException"/>
+<fullyQualifiedTypeName name="com.webuildsystems.EventLib.EventRunnable"/>
+<fullyQualifiedTypeName name="com.webuildsystems.AppLogoQuiz.data.RawInfosGrabberEventListener"/>
+<fullyQualifiedTypeName name="com.webuildsystems.AppLogoQuiz.data.RawInfosGrabberEvent"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,8 @@
+package com.webuildsystem.EventLib.tests.Timer;
+
+import com.webuildsystems.EventLib.Event;
+
+public class TimerEvent extends Event<TimerEventListener>
+{
+
+}

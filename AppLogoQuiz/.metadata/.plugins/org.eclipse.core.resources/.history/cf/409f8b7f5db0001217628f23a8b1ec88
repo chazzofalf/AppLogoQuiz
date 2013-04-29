@@ -1,0 +1,28 @@
+package com.webuildsystem.EventLib.tests.Timer;
+
+public class TimerTest implements TimerEventListener
+{
+	public void execute()
+	{
+		Timer timer = new Timer();
+		timer.addListener(this);
+		timer.setTimerInterval(1000);
+		timer.start();
+	}
+	public static void main(String[] args)
+	{
+		TimerTest test = new TimerTest();
+		test.execute();
+	}
+	@Override
+	public void onTimerElapsed() {
+		System.out.println("The timer has elapsed. (1sec)");
+		
+	}
+	@Override
+	public void onTimerInterruptedException(
+			TimerInterruptedException timerInterruptedException) {
+		timerInterruptedException.printStackTrace();
+		
+	}
+}

@@ -1,0 +1,32 @@
+package com.webuildsystem.EventLib.tests.Timer;
+
+public class Timer 
+{
+	private TimerEvent timerEvent = new TimerEvent();
+	private long timerInterval;
+	private boolean running = false;
+	public void setTimerInterval(long timerInterval)
+	{
+		this.timerInterval = timerInterval;
+	}
+	public void start()
+	{
+		running = true;
+		new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				
+			}
+		}).start();
+	}
+	private void fireOnTimerElapsed()
+	{
+		
+	}
+	public void stop()
+	{
+		
+	}
+}

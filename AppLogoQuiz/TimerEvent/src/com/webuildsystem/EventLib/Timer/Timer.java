@@ -1,0 +1,54 @@
+package com.webuildsystem.EventLib.Timer;
+
+public class Timer 
+{
+	private TimerEvent timerEvent = new TimerEvent();
+	private long timerInterval;
+	private boolean running = false;
+	public void addListener(TimerEventListener listener)
+	{
+		timerEvent.addListener(listener);
+	}
+	public void removeListener(TimerEventListener listener)
+	{
+		timerEvent.removeListener(listener);
+	}
+	public void setTimerInterval(long timerInterval)
+	{
+		this.timerInterval = timerInterval;
+	}
+	public void start()
+	{
+		running = true;
+		new Thread(new Runnable() {
+			
+			@Override
+			public void run() {
+				while (running)
+				{
+					try
+					{
+						Thread.sleep(timerInterval);
+						fireOnTimerElapsed();
+					}
+					catch (InterruptedException interruptedException)
+					{
+						fireOnTimerInterrupted(new TimerInterruptedException(interruptedException));
+					}
+				}				
+			}
+		}).start();
+	}
+	private void fireOnTimerElapsed()
+	{
+		timerEvent.fireOnTimerElapsed();
+	}
+	private  void fireOnTimerInterrupted(TimerInterruptedException timerInterruptedException)
+	{
+		timerEvent.fireOnTimerInterrupted(timerInterruptedException);
+	}
+	public void stop()
+	{
+		running = false;
+	}
+}

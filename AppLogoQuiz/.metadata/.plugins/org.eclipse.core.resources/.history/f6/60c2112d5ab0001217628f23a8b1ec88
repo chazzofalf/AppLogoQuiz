@@ -1,0 +1,9 @@
+package com.webuildsystems.EventLib;
+
+import java.util.ArrayList;
+
+public class Event<Listener>
+{
+	private ArrayList<Listener> listeners = new ArrayList<>();
+	
+}

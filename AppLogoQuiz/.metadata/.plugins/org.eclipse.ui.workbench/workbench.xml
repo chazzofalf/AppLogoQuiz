@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="12" version="2.0">
+<workbench progressCount="10" version="2.0">
 <workbenchAdvisor/>
-<window height="742" width="1024" x="0" y="0">
+<window height="742" maximized="true" width="1024" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="250"/>
@@ -16,13 +16,15 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="156" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="88" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="82" y="30"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="232" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -31,10 +33,101 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppLogoQuizGatewayActivity.java" partName="AppLogoQuizGatewayActivity.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/AppLogoQuizGatewayActivity.java" title="AppLogoQuizGatewayActivity.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/AppLogoQuizGatewayActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/AppLogoQuizGatewayActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="548"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppInfos.java" partName="AppInfos.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppInfos.java" title="AppInfos.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppInfos.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppInfos.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="72" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppTitles.java" partName="AppTitles.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppTitles.java" title="AppTitles.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppTitles.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppTitles.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="70" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppDrawables.java" partName="AppDrawables.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppDrawables.java" title="AppDrawables.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppDrawables.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppDrawables.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="75" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppPackageNames.java" partName="AppPackageNames.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppPackageNames.java" title="AppPackageNames.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppPackageNames.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppPackageNames.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="157" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Event.java" partName="Event.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/EventLib/src/com/webuildsystems/EventLib/Event.java" title="Event.java" tooltip="EventLib/src/com/webuildsystems/EventLib/Event.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EventLib/src/com/webuildsystems/EventLib/Event.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="324" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventRunnable.java" partName="EventRunnable.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/EventLib/src/com/webuildsystems/EventLib/EventRunnable.java" title="EventRunnable.java" tooltip="EventLib/src/com/webuildsystems/EventLib/EventRunnable.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EventLib/src/com/webuildsystems/EventLib/EventRunnable.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="122" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Timer.java" partName="Timer.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/TimerEvent/src/com/webuildsystem/EventLib/Timer/Timer.java" title="Timer.java" tooltip="TimerEvent/src/com/webuildsystem/EventLib/Timer/Timer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimerEvent/src/com/webuildsystem/EventLib/Timer/Timer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="839" selectionTopPixel="121"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerEvent.java" partName="TimerEvent.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/TimerEvent/src/com/webuildsystem/EventLib/Timer/TimerEvent.java" title="TimerEvent.java" tooltip="TimerEvent/src/com/webuildsystem/EventLib/Timer/TimerEvent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimerEvent/src/com/webuildsystem/EventLib/Timer/TimerEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="865" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerEventListener.java" partName="TimerEventListener.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/TimerEvent/src/com/webuildsystem/EventLib/Timer/TimerEventListener.java" title="TimerEventListener.java" tooltip="TimerEvent/src/com/webuildsystem/EventLib/Timer/TimerEventListener.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimerEvent/src/com/webuildsystem/EventLib/Timer/TimerEventListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="205" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerInterruptedException.java" partName="TimerInterruptedException.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/TimerEvent/src/com/webuildsystem/EventLib/Timer/TimerInterruptedException.java" title="TimerInterruptedException.java" tooltip="TimerEvent/src/com/webuildsystem/EventLib/Timer/TimerInterruptedException.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TimerEvent/src/com/webuildsystem/EventLib/Timer/TimerInterruptedException.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="319" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerTest.java" partName="TimerTest.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/EventTimerTest/src/com/webuildsystem/EventLib/Timer/tests/TimerTest.java" title="TimerTest.java" tooltip="EventTimerTest/src/com/webuildsystem/EventLib/Timer/tests/TimerTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/EventTimerTest/src/com/webuildsystem/EventLib/Timer/tests/TimerTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="409" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppTitlesGrabber.java" partName="AppTitlesGrabber.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppTitlesGrabber.java" title="AppTitlesGrabber.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppTitlesGrabber.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppTitlesGrabber.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="77" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfos.java" partName="RawInfos.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfos.java" title="RawInfos.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfos.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfos.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="265" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfosGrabber.java" partName="RawInfosGrabber.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabber.java" title="RawInfosGrabber.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabber.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabber.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1233" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfosGrabberEvent.java" partName="RawInfosGrabberEvent.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEvent.java" title="RawInfosGrabberEvent.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEvent.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEvent.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="41" selectionOffset="232" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfosGrabberEventListener.java" partName="RawInfosGrabberEventListener.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEventListener.java" title="RawInfosGrabberEventListener.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEventListener.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEventListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="75" selectionOffset="146" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfosGrabFailureException.java" partName="RawInfosGrabFailureException.java" path="/media/chazz2/Devel-Space-VMWa/chazz/temp/20130428_1734/AppLogoQuiz/AppLogoQuiz/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabFailureException.java" title="RawInfosGrabFailureException.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabFailureException.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabFailureException.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="317" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="com.android.ide.eclipse.ddms.views.DeviceView" partName="Devices"/>
@@ -48,6 +141,10 @@
 <view id="com.android.ide.eclipse.ddms.views.NetworkStatsView" partName="Network Statistics"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (4 items)"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -92,7 +189,7 @@
 <view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" partName="Allocation Tracker"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
 <descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -134,31 +231,21 @@
 <view id="com.android.ide.eclipse.ddms.views.EmulatorControlView"/>
 <view id="com.android.ide.eclipse.ddms.views.SysInfoView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="devices">
-<folder appearance="2" expanded="2">
-<page content="com.android.ide.eclipse.ddms.views.DeviceView:*" label="LabelNotFound"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="devices">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.DeviceView:*" label="LabelNotFound"/>
 <page content="com.android.ide.eclipse.ddms.views.DeviceView" label="Devices"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="devices">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="devices">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="logcat" ratio="0.7986907" ratioLeft="488" ratioRight="123" relationship="4" relative="devices">
-<folder appearance="2" expanded="2">
-<page content="com.android.ide.eclipse.ddms.views.LogCatView:*" label="LabelNotFound"/>
+<info folder="true" part="logcat" ratio="0.7986907" ratioLeft="488" ratioRight="123" relationship="4" relative="devices">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView:*" label="LabelNotFound"/>
 <page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.3" ratioLeft="303" ratioRight="707" relationship="2" relative="devices"/>
-<info folder="true" part="ddms-detail" ratio="0.4992928" ratioLeft="353" ratioRight="354" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
-<page content="com.android.ide.eclipse.ddms.views.ThreadView:*" label="LabelNotFound"/>
+<info folder="true" part="ddms-detail" ratio="0.4992928" ratioLeft="353" ratioRight="354" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.ThreadView:*" label="LabelNotFound"/>
 <page content="com.android.ide.eclipse.ddms.views.ThreadView" label="Threads"/>
 <page content="com.android.ide.eclipse.ddms.views.HeapView" label="Heap"/>
 <page content="com.android.ide.eclipse.ddms.views.AllocTrackerView" label="Allocation Tracker"/>
@@ -293,7 +380,166 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppTitlesGrabber.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfos.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabber.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEvent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEventListener.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabFailureException.java"/>
+</editors>
+<item historyLabel="AppTitlesGrabber.java" index="0">
+<position info="not_deleted" x="77" y="0"/>
+</item>
+<item historyLabel="RawInfos.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfos.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RawInfos.java" index="1">
+<position info="not_deleted" x="134" y="0"/>
+</item>
+<item historyLabel="RawInfos.java" index="1">
+<position info="not_deleted" x="164" y="0"/>
+</item>
+<item historyLabel="RawInfos.java" index="1">
+<position info="not_deleted" x="178" y="0"/>
+</item>
+<item historyLabel="RawInfos.java" index="1">
+<position info="not_deleted" x="232" y="0"/>
+</item>
+<item historyLabel="RawInfos.java" index="1">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEventListener.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEventListener.java" index="4">
+<position info="not_deleted" x="222" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabFailureException.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabFailureException.java" index="5">
+<position info="not_deleted" x="161" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabFailureException.java" index="5">
+<position info="not_deleted" x="179" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabFailureException.java" index="5">
+<position info="not_deleted" x="317" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEventListener.java" index="4">
+<position info="not_deleted" x="222" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEventListener.java" index="4">
+<position info="not_deleted" x="222" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfos.java" index="1">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="1006" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEventListener.java" index="4">
+<position info="not_deleted" x="101" y="38"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="1006" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="216" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="1006" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEventListener.java" index="4">
+<position info="not_deleted" x="146" y="75"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="1006" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="723" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="424" y="8"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="503" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="577" y="78"/>
+</item>
+<item historyLabel="RawInfosGrabberEventListener.java" index="4">
+<position info="not_deleted" x="146" y="75"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabberEvent.java" index="3">
+<position info="not_deleted" x="232" y="41"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1236" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="838" y="8"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="878" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1091" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="257" y="0"/>
+</item>
+<item historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1175" y="0"/>
+</item>
+<item active="true" historyLabel="RawInfosGrabber.java" index="2">
+<position info="not_deleted" x="1228" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -310,5 +556,51 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfosGrabFailureException.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabFailureException.java">
+<persistable path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabFailureException.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfosGrabberEventListener.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEventListener.java">
+<persistable path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEventListener.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfosGrabberEvent.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEvent.java">
+<persistable path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabberEvent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfosGrabber.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabber.java">
+<persistable path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfosGrabber.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RawInfos.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfos.java">
+<persistable path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/RawInfos.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppTitlesGrabber.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppTitlesGrabber.java">
+<persistable path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/data/AppTitlesGrabber.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerTest.java" tooltip="EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/TimerTest.java">
+<persistable path="/EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/TimerTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerInterruptedException.java" tooltip="EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/TimerInterruptedException.java">
+<persistable path="/EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/TimerInterruptedException.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerEventListener.java" tooltip="EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/TimerEventListener.java">
+<persistable path="/EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/TimerEventListener.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TimerEvent.java" tooltip="EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/TimerEvent.java">
+<persistable path="/EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/TimerEvent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Timer.java" tooltip="EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/Timer.java">
+<persistable path="/EventTimerTest/src/com/webuildsystem/EventLib/tests/Timer/Timer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventRunnable.java" tooltip="EventLib/src/com/webuildsystems/EventLib/EventRunnable.java">
+<persistable path="/EventLib/src/com/webuildsystems/EventLib/EventRunnable.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Event.java" tooltip="EventLib/src/com/webuildsystems/EventLib/Event.java">
+<persistable path="/EventLib/src/com/webuildsystems/EventLib/Event.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventLib.java" tooltip="AppLogoQuiz/src/EventLib.java">
+<persistable path="/AppLogoQuiz/src/EventLib.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AppPackageName.java" tooltip="AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/AppPackageName.java">
+<persistable path="/AppLogoQuiz/src/com/webuildsystems/AppLogoQuiz/AppPackageName.java"/>
+</file>
+</mruList>
 </workbench>

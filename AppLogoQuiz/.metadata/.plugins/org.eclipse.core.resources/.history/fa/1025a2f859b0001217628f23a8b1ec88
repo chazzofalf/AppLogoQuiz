@@ -1,0 +1,6 @@
+package com.webuildsystems.EventLib;
+
+public class Event<Listener>
+{
+	
+}

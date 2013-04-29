@@ -1,0 +1,15 @@
+package com.webuildsystem.EventLib.tests.Timer;
+
+public class Timer 
+{
+	private TimerEvent timerEvent = new TimerEvent();
+	private long timerInterval;
+	public void setTimerInterval(long timerInterval)
+	{
+		this.timerInterval = timerInterval;
+	}
+	public void start()
+	{
+		
+	}
+}

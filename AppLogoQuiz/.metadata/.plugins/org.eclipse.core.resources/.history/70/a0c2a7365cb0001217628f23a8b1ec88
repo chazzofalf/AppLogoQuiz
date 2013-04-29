@@ -1,0 +1,19 @@
+package com.webuildsystem.EventLib.tests.Timer;
+
+import com.webuildsystems.EventLib.Event;
+import com.webuildsystems.EventLib.EventRunnable;
+
+public class TimerEvent extends Event<TimerEventListener>
+{
+	void fireOnTimerElapsed()
+	{
+		fireEvent(new EventRunnable<TimerEventListener>() {
+			
+			@Override
+			public void run(TimerEventListener eventListener) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+	}
+}

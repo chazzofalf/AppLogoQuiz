@@ -1,0 +1,24 @@
+package com.webuildsystem.EventLib.tests.Timer;
+
+public class TimerTest implements TimerEventListener
+{
+	public void execute()
+	{
+		
+	}
+	public static void main(String[] args)
+	{
+		
+	}
+	@Override
+	public void onTimerElapsed() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void onTimerInterruptedException(
+			TimerInterruptedException timerInterruptedException) {
+		timerInterruptedException.printStackTrace();
+		
+	}
+}

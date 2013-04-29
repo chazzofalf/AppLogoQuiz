@@ -1,0 +1,7 @@
+package com.webuildsystems.AppLogoQuiz.data;
+
+public interface RawInfosGrabberEventListener 
+{
+	void onRawInfosObtained(RawInfos rawInfos);
+	void onRawInfosFailureToGrab(RawInfosGrabFailureException rawsInfosFailedToGrab);
+}

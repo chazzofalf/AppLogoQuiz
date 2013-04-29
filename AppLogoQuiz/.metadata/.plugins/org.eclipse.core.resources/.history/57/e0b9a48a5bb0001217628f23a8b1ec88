@@ -1,0 +1,7 @@
+package com.webuildsystem.EventLib.tests.Timer;
+
+public interface TimerEventListener 
+{
+	public void onTimerElapsed();
+	public void onTimerInterruptedException();
+}

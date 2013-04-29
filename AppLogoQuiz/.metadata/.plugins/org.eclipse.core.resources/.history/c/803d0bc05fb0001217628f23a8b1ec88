@@ -1,0 +1,12 @@
+package com.webuildsystems.AppLogoQuiz.data;
+
+import com.webuildsystems.EventLib.Event;
+
+public class RawInfosGrabberEvent extends Event<RawInfosGrabberEventListener>
+{
+	public void fireOnRawInfosObtained(RawInfos rawInfos)
+	{
+		final RawInfos _rawInfos = rawInfos;
+		
+	}
+}

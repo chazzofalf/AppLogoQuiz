@@ -1,0 +1,22 @@
+package com.webuildsystems.AppLogoQuiz.data;
+
+public class RawInfosGrabber 
+{
+	private RawInfosGrabberEvent rawInfosGrabberEvent = new RawInfosGrabberEvent();
+	public void addListener(RawInfosGrabberEventListener listener)
+	{
+		rawInfosGrabberEvent.addListener(listener);
+	}
+	public void removeListener(RawInfosGrabberEventListener listener)
+	{
+		rawInfosGrabberEvent.removeListener(listener);
+	}
+	private void fireOnRawInfosFailureToGrab(RawInfosGrabFailureException rawInfosFailedToGrab)
+	{
+		rawInfosGrabberEvent.fireOnRawInfosFailureToGrab(rawInfosFailedToGrab);
+	}
+	private void fireOnRawInfosObtained(RawInfos rawInfos)
+	{
+		rawInfosGrabberEvent.fireOnRawInfosObtained(rawInfos);
+	}
+}

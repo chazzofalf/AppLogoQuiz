@@ -1,0 +1,5 @@
+package com.webuildsystem.EventLib.tests.Timer;
+
+public class TimerInterruptedException extends Exception {
+
+}

@@ -1,0 +1,19 @@
+package com.webuildsystems.EventLib;
+
+import java.util.ArrayList;
+
+public class Event<Listener>
+{
+	private ArrayList<Listener> listeners = new ArrayList<>();
+	protected void fireEvent(EventRunnable<Listener> eventAction)
+	{
+		final EventRunnable<Listener> _eventAction = eventAction;
+		@SuppressWarnings("unchecked")
+		Listener[] listeners = (Listener[])this.listeners.toArray();
+		for (Listener listener : listeners)
+		{
+			final Listener _listener = listener;
+			
+		}
+	}
+}

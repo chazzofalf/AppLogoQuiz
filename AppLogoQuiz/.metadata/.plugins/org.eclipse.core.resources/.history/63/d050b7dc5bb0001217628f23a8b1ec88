@@ -1,0 +1,7 @@
+package com.webuildsystem.EventLib.tests.Timer;
+
+public class Timer 
+{
+	private TimerEvent timerEvent = new TimerEvent();
+	
+}
